@@ -1,1 +1,110 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head >
+       <title>Tildes burger shop</title>
+       <meta charset="utf-8"/>
+       <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+    
+    <header id="header">
+        <img src="header2.jpg" alt="Header" style="width: 100%;" id="headerimage">
+        <h1 id="headertext">Wecome to Patty Perfection</h1>
+     </header>
+     <section id="burgerselect">
+     <nav> <h2>Select burger</h2> 
+        This is where you execute burger selection
+        </nav>
+     <main>
+        
+            <div class="wrapper">
+        <div class="burger">
+            <section id="burgerinfo">
+                <h3 style="text-align:center">Tilde's Original</h3>
+                <img src="https://static.vecteezy.com/system/resources/previews/021/952/559/original/tasty-hamburger-on-transparent-background-png.png" alt="Burger1" style="width: 50%;" id="burgerpic"> 
+                <ul>
+                 <li>Contains lactose</li>
+                 <li>Contains gluten</li>
+                </ul>
+             </section>
+             </div>
+             <div class="burger">
+             <section id="burgerinfo">
+                <h3 style="text-align:center">VeganDreamy</h3>
+                <img src="https://png.pngtree.com/png-clipart/20220715/ourmid/pngtree-burger-delicious-beef-burger-food-png-image_5965347.png" alt="Burger2" style="width: 90%;" id="burgerpic"> 
+                <ul>
+                 <li>Contains legume</li>
+                 <li>Contains gluten</li>
+                </ul>            
+             </section>
+            </div>
+            <div class="burger">
+             <section id="burgerinfo">
+                <h3 style="text-align:center">CheesyTomato</h3>
+                <img src="https://www.pngall.com/wp-content/uploads/5/Hamburger-PNG-File.png" alt="Burger3" style="width: 50%;"id="burgerpic"> 
+                <ul>
+                 <li>Contains extreme amounts of lactose</li>
+                 <li>Contains gluten</li>
+                </ul>            
+             </section>
+        </div>
+    </div>
+    </section>
+        <section id="contact">
+            <h2>Customer Information</h2>
+            <p>This is where you provide neccessary information</p>
+            <h3>Delivery information:</h3>
+            <form >
+                <p>
+                    <label for="fullname">Full name</label><br>
+                    <input type="text" id="fullname" name="fn" required="required" placeholder="First- and Last name">
+                </p>
+                
+                <p>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+                </p>
+                <p>
+                    <label for="street">Street</label><br>
+                    <input type="text" id="Streetname" name="sn" placeholder="Street name">
+                </p>
+                <p>
+                    <label for="Housenumber">House</label><br>
+                    <input type="number" id="housenumber" name="hn" placeholder="House number">
+                </p>
+            
+            <p>
+                <label for="payment"><h4>Payment method</h4></label>
+                <select id="payment" name="pm">
+                    <option>Credit/debit card</option>
+                    <option>Check</option>
+                    <option>Bank transfer</option>
+                    <option>Cryptocurrency</option>
+                </select>
+             </p>
+             
+                <h4>Please select your gender:</h4>
+                <input type="radio" id="female" name="gender" value="FEMALE" checked="checked">
+                <label for="female">Female</label><br>
+                <input type="radio" id="male" name="gender" value="MALE">
+                <label for="male">Male</label><br>
+                <input type="radio" id="nonbinary" name="gender" value="NONBINARY">
+                <label for="nonbinary">Non-binary</label><br>
+                <input type="radio" id="dnwtp" name="gender" value="DONOTWISHTOPROVIDE">
+                <label for="dnwtp">Do not wish to provide</label> <br>
+
+                  </form>
+                </section>
+                <button type="submit">
+                    <img src="https://gallery.yopriceville.com/downloadfullsize/send/8402" alt="Burger4" style="width: 30px;">
+                    Place my order!
+                  </button>
+        
+        
+     </main>
+     <footer>
+        <hr>
+        &#169 2023 Imagination burger co.
+     </footer>
+   </body>
+</html>
